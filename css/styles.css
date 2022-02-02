@@ -14,7 +14,7 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: Roboto , sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -58,11 +58,16 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* Контакты */
 
 .contacts-information .contacts-data {
     color: var(--primary-text-color);
     font-family: Roboto , sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,14 +78,6 @@ body {
 .contacts-information .contacts-data:hover,
 .contacts-information .contacts-data:focus {
     color: var(--accent-color);
-}
-
-.address {
-    background-color: tomato;
-    color: var(--primary-white-color);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.71;
 }
 
 /* Герой */
@@ -103,6 +100,10 @@ body {
 
 /* Преимущества */
 
+.section-title-hidden {
+    color: var(--primary-white-color);
+}
+
 .section-title {
     color: var(--title-text-color);
     font-family: Roboto , sans-serif;
@@ -112,7 +113,7 @@ body {
     text-align: center;
 }
 
-.title {
+.section .title {
     color: var(--title-text-color);
     font-family: Roboto , sans-serif;
     font-weight: bold;
@@ -190,4 +191,27 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
+}
+/*Футер*/
+
+footer {
+    background-color: #2F303A;
+}
+
+.footer-information .address {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.footer-information .contacts-data {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
