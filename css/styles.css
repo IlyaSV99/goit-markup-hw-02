@@ -15,6 +15,7 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: Roboto , sans-serif;
+    font-weight: normal;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -45,7 +46,6 @@ body {
   
 .site-nav .link {
     color: var(--title-text-color);
-    font-family: Roboto , sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -66,7 +66,6 @@ body {
 
 .contacts-information .contacts-data {
     color: var(--primary-text-color);
-    font-family: Roboto , sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -85,7 +84,6 @@ body {
 .hero-title {
     background-color: tomato;
     color: var(--primary-white-color);
-    font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,9 +91,17 @@ body {
     text-transform: uppercase;    
 }
 
-.button {
+.hero .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    font-family: Roboto , sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Преимущества */
@@ -106,7 +112,6 @@ body {
 
 .section-title {
     color: var(--title-text-color);
-    font-family: Roboto , sans-serif;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -115,7 +120,6 @@ body {
 
 .section .title {
     color: var(--title-text-color);
-    font-family: Roboto , sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -123,7 +127,6 @@ body {
 }
 
 .description {
-    font-family: Roboto , sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -133,7 +136,6 @@ body {
 
 .name {
     color: var(--title-text-color);
-    font-family: Roboto , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -142,7 +144,6 @@ body {
 
 .profession {
     color: var(--primary-text-color);
-    font-family: Roboto , sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
@@ -153,7 +154,7 @@ body {
 
 /* Кнопки */
 
-.buttons .button {
+.projects .button {
     background-color:var(--primary-button-color);
     color: var(--title-text-color);
     font-family: Roboto , sans-serif;
@@ -163,8 +164,8 @@ body {
     text-align: center;
 }
 
-.buttons .button:hover ,
-.buttons .button:focus {
+.projects .button:hover ,
+.projects .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
@@ -178,7 +179,6 @@ body {
 
 .project-title {
     color :var(--title-text-color);
-    font-family: Roboto;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -187,7 +187,6 @@ body {
 
 .project-type {
     color: var(--primary-text-color);
-    font-family: Roboto;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -200,7 +199,6 @@ footer {
 
 .footer-information .address {
     color: #ffffff;
-    font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -209,9 +207,21 @@ footer {
 
 .footer-information .contacts-data {
     color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+}
+
+.footer-information .contacts-data:hover ,
+.footer-information .contacts-data:focus {
+    color: var(--accent-color);
+}
+
+.logo-second-half-footer {
+    color: var(--primary-button-color);
+    font-family: Raleway , sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
 }
